@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\SWE_Task_3_2.exe
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\SWE_Task_3_2.dll
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\SWE_Task_3_2.deps.json
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\SWE_Task_3_2.runtimeconfig.json
+C:\Users\USER\source\repos\SWE40006\assignment3\SWE_Task_3_2\SWE_Task_3_2\obj\Release\net8.0\PubTmp\Out\SWE_Task_3_2.pdb

@@ -1,0 +1,19 @@
+﻿@model SWE_Task_3_2.Models.listItem
+
+<!-- Edit page of the application -->
+<h1>Edit Task</h1>
+
+<!-- Form to edit the title and done status of the item -->
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input asp-for="Done" /> <label asp-for="Done"></label>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

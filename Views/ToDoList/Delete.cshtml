@@ -1,0 +1,13 @@
+﻿@model SWE_Task_3_2.Models.listItem
+
+<!-- Delete page of the application -->
+<h1>Delete Task</h1>
+
+<p>Are you sure you want to delete <strong>@Model.Title</strong>?</p>
+
+<!-- Form to confirm deletion of item -->
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

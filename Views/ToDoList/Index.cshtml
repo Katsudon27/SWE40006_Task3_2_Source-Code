@@ -1,0 +1,33 @@
+﻿@model List<SWE_Task_3_2.Models.listItem>
+
+<!-- Home page of the application -->
+<h1>To-Do List</h1>
+
+<!-- A link to the Create page-->
+<p><a asp-action="Create" class="btn btn-primary">Add New</a></p>
+
+<!-- A table to display all items of the to-do list -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Done?</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Done</td>
+
+                <!-- Links to the Edit and Delete pages -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
